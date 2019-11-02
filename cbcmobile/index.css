@@ -1,0 +1,266 @@
+.headband{
+	width: 100%;
+	height: 8vh;
+	text-align: center;
+	position: relative;
+}
+
+.headband, .inactive-icon{
+	background: red;
+	border-width: 0px;
+}
+
+.glyphicon {
+    	font-size: 4vh;
+}
+
+.menu-icon{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+
+.user-icon{
+	display: inline-block;
+	float: right;
+	height: 100%;
+}
+
+.current{
+	display: inline-block;
+	margin-top: 1.5vh;
+	padding: 0.5vh 7px;
+	border-radius: 15px;
+	background: black;
+	font-size: 3vh;
+	color: red;
+}
+
+.current a{
+	color: red;
+}
+
+.title-badge{
+	display: inline-block;
+	
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.content{
+	width: 100%;
+	height: 92vh;
+	overflow-y: auto;
+	position: relative;
+}
+
+.subcontent{
+	width: 100%;
+	height: 92vh;
+	overflow-y: scroll;
+	position: absolute;
+	padding: 1%;
+}
+
+.article{
+	height: 15vh;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+.category{
+	font-size:2vh;
+}
+
+.title{
+	font-size:3vh;
+	text-decoration: underline;
+}
+
+.preview{
+	font-size:2vh;
+}
+
+.date{
+	font-size:1.5vh;
+}
+
+.add-tournament{
+	position: absolute;
+	bottom: 2vw;
+	right: 2vw;
+	cursor: pointer;
+	border-radius: 50%;	
+	border: none;
+	background-color: blue;
+	z-index: 100;
+	padding: 6px 5px 5px 6px;
+}
+
+.article-title{
+	text-align: center;
+}
+
+.article-description{
+	text-align: justify;
+}
+
+.main-title{
+	font-size: 5vh;
+	text-decoration: underline;
+}
+
+.sec-title{
+	font-size: 4vh;
+}
+
+.description{
+	white-space: pre-line;
+}
+
+.preview-picture{
+	width: 32vw;
+	padding: 0.5vw 0.5vw;
+}
+
+.manage{
+	color: blue;
+}
+
+.carousel{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.8);
+}
+
+.carousel-inner{
+	height: 100%;
+}
+
+.item{
+	height: 100%;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+    	background-position: center;
+}
+
+.item-straight-parent{
+	height: 100%;
+	width: 100%;
+}
+
+.item-straight{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: contain;
+    	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.item-rotated-parent{
+	height: 100%;
+	width: 100%;
+	-webkit-transform: translate(50vw, -50vw);
+    	-moz-transform: translate(50vw, -50vw);
+    	-ms-transform: translate(50vw, -50vw);
+    	-o-transform: translate(50vw, -50vw);
+    	transform: translate(50vw, -50vw);
+}
+
+.item-rotated{
+	content: "";
+    	position: absolute;
+    	width: 92vh;
+    	height: 100vw;
+    	background-size: contain;
+    	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transform: rotate(90deg) translate(46vh, 46vh);
+    	-moz-transform: rotate(90deg) translate(46vh, 46vh);
+    	-ms-transform: rotate(90deg) translate(46vh, 46vh);
+    	-o-transform: rotate(90deg) translate(46vh, 46vh);
+    	transform: rotate(90deg) translate(46vh, 46vh);
+}
+
+.item img{
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.close-carousel{
+	position: absolute;
+	bottom: 2vh;
+	left: 52vw;
+}
+
+.rotate-slide{
+	position: absolute;
+	bottom: 2vh;
+	right: 52vw;
+}
+
+.delete-image{
+	position: absolute;
+	top: 2vh;
+	left: 2vw;
+}
+
+.upload-pictures{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.upload-pictures + label{
+	background-color: red;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 2px 5px;
+}
+
+.delete-tournament{
+	background-color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 2px 5px;
+	color: red;
+	border: 1px solid red; 
+}
+
+.update-infos{
+	background-color: blue;
+	cursor: pointer;
+	border-radius: 10px;
+	padding: 2px 5px;
+	color: white;
+}
+
+.tournament-form{
+	padding: 2vh 2vw;
+}
+
+#inf-scroll-container #loader{
+	display: none;
+}
+
+a.disabled {
+  pointer-events: none;
+}
+
